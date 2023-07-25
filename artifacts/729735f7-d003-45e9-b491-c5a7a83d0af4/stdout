@@ -1,0 +1,9 @@
+
+PLAY [Example Playbook] ********************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;31mfatal: [192.168.33.11]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: /root/.ssh/config: line 2: Bad configuration option: usekeychain\r\n/root/.ssh/config: terminating, 1 bad configuration options", "unreachable": true}[0m
+
+PLAY RECAP *********************************************************************
+[0;31m192.168.33.11[0m              : ok=0    changed=0    [1;31munreachable=1   [0m failed=0    skipped=0    rescued=0    ignored=0   
+

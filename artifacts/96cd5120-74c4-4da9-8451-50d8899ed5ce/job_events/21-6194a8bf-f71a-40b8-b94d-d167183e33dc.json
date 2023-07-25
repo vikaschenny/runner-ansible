@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "6194a8bf-f71a-40b8-b94d-d167183e33dc", "counter": 21, "stdout": "\u001b[0;34m  File \"/usr/local/lib/python3.10/dist-packages/ansible/plugins/inventory/yaml.py\", line 107, in parse\u001b[0m", "start_line": 20, "end_line": 21, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.633600"}

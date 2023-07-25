@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "10dbacb4-63f1-4e92-a261-d9368809b23f", "counter": 15, "stdout": "\u001b[1;35m'/opt/one/demo_hosts': line 2, column 1, but may be elsewhere in the file\u001b[0m", "start_line": 14, "end_line": 15, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.622199"}

@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "6f4a8111-12b7-49f1-a31f-46d83b36da8b", "counter": 29, "stdout": "\u001b[0;34m    raise AnsibleParserError(e)\u001b[0m", "start_line": 28, "end_line": 29, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.647047"}

@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "743f3c4a-5ad3-47c0-8796-67168cc673e4", "counter": 11, "stdout": "\u001b[1;35m[WARNING]:  * Failed to parse /opt/one/demo_hosts with yaml plugin: We were\u001b[0m", "start_line": 10, "end_line": 11, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.614857"}

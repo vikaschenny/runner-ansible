@@ -1,0 +1,2 @@
+[my_hosts]
+192.168.33.11 remote_user=vikas ansible_password=vikas private_key_file=/opt/one/my_key.pem host_key_checking=false ansible_sshpass_prompt=vikas

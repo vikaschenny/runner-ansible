@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "068e955f-59f5-4ef5-8bcb-ee533bf1f48f", "counter": 12, "stdout": "\u001b[0;31mERROR! the playbook: test.yaml could not be found\u001b[0m", "start_line": 11, "end_line": 12, "runner_ident": "b8525682-48b8-4f74-b070-bf34e7718c72", "created": "2023-07-25T13:40:34.044640"}

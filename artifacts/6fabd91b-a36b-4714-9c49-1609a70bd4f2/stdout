@@ -1,0 +1,16 @@
+
+PLAY [Example playbook] ********************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;31mfatal: [192.168.33.11]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.33.11 port 22: No route to host", "unreachable": true}[0m
+[0;32mok: [10.0.2.15][0m
+
+TASK [Example task] ************************************************************
+[0;32mok: [10.0.2.15] => {[0m
+[0;32m    "msg": "Hello from 10.0.2.15"[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;32m10.0.2.15[0m                  : [0;32mok=2   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;31m192.168.33.11[0m              : ok=0    changed=0    [1;31munreachable=1   [0m failed=0    skipped=0    rescued=0    ignored=0   
+

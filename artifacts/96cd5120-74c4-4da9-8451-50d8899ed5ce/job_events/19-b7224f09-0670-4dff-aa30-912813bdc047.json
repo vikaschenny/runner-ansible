@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "b7224f09-0670-4dff-aa30-912813bdc047", "counter": 19, "stdout": "\u001b[0;34m  File \"/usr/local/lib/python3.10/dist-packages/ansible/inventory/manager.py\", line 293, in parse_source\u001b[0m", "start_line": 18, "end_line": 19, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.627530"}

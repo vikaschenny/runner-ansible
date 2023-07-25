@@ -1,0 +1,46 @@
+[0;34mansible-playbook [core 2.15.1][0m
+[0;34m  config file = /etc/ansible/ansible.cfg[0m
+[0;34m  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules'][0m
+[0;34m  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible[0m
+[0;34m  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections[0m
+[0;34m  executable location = /usr/local/bin/ansible-playbook[0m
+[0;34m  python version = 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] (/usr/bin/python3)[0m
+[0;34m  jinja version = 3.0.3[0m
+[0;34m  libyaml = True[0m
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[1;35m[WARNING]:  * Failed to parse /opt/one/demo_hosts with yaml plugin: We were[0m
+[1;35munable to read either as JSON nor YAML, these are the errors we got from each:[0m
+[1;35mJSON: Expecting value: line 1 column 2 (char 1)  Syntax Error while loading[0m
+[1;35mYAML.   did not find expected <document start>  The error appears to be in[0m
+[1;35m'/opt/one/demo_hosts': line 2, column 1, but may be elsewhere in the file[0m
+[1;35mdepending on the exact syntax problem.  The offending line appears to be:[0m
+[1;35m[my_hosts] 192.168.33.11 ansible_ssh_private_key_file=/opt/one/my_key.pem[0m
+[1;35mremote_user=vikas --ask-pass ^ here[0m
+[0;34m  File "/usr/local/lib/python3.10/dist-packages/ansible/inventory/manager.py", line 293, in parse_source[0m
+[0;34m    plugin.parse(self._inventory, self._loader, source, cache=cache)[0m
+[0;34m  File "/usr/local/lib/python3.10/dist-packages/ansible/plugins/inventory/yaml.py", line 107, in parse[0m
+[0;34m    raise AnsibleParserError(e)[0m
+[1;35m[WARNING]:  * Failed to parse /opt/one/demo_hosts with ini plugin:[0m
+[1;35m/opt/one/demo_hosts:2: Expected key=value host variable assignment, got: --ask-[0m
+[1;35mpass[0m
+[0;34m  File "/usr/local/lib/python3.10/dist-packages/ansible/inventory/manager.py", line 293, in parse_source[0m
+[0;34m    plugin.parse(self._inventory, self._loader, source, cache=cache)[0m
+[0;34m  File "/usr/local/lib/python3.10/dist-packages/ansible/plugins/inventory/ini.py", line 137, in parse[0m
+[0;34m    raise AnsibleParserError(e)[0m
+[1;35m[WARNING]: Unable to parse /opt/one/demo_hosts as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+[0;34mSkipping callback 'awx_display', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'minimal', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'default', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'oneline', as we already have a stdout callback.[0m
+
+PLAYBOOK: testplay.yaml ********************************************************
+[0;34m1 plays in testplay.yaml[0m
+
+PLAY [Example Playbook] ********************************************************
+[0;36mskipping: no hosts matched[0m
+
+PLAY RECAP *********************************************************************
+

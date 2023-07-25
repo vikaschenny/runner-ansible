@@ -1,0 +1,25 @@
+[0;34mansible-playbook [core 2.15.1][0m
+[0;34m  config file = /etc/ansible/ansible.cfg[0m
+[0;34m  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules'][0m
+[0;34m  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible[0m
+[0;34m  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections[0m
+[0;34m  executable location = /usr/local/bin/ansible-playbook[0m
+[0;34m  python version = 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] (/usr/bin/python3)[0m
+[0;34m  jinja version = 3.0.3[0m
+[0;34m  libyaml = True[0m
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[0;34mParsed /opt/one/demo_hosts inventory source with ini plugin[0m
+[0;34mSkipping callback 'awx_display', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'minimal', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'default', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'oneline', as we already have a stdout callback.[0m
+
+PLAYBOOK: testplay.yaml ********************************************************
+[0;34m1 plays in testplay.yaml[0m
+
+PLAY [Example Playbook] ********************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;30mtask path: /opt/one/testplay.yaml:1[0m
+[0;34m<192.168.33.11> ESTABLISH SSH CONNECTION FOR USER: vikas[0m
+[0;34m<192.168.33.11> SSH: EXEC sshpass -d12 -P vikas ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o 'IdentityFile="/opt/one/my_key.pem"' -o 'User="vikas"' -o ConnectTimeout=10 -o 'ControlPath="/root/.ansible/cp/e7335dc3f0"' 192.168.33.11 '/bin/sh -c '"'"'echo ~vikas && sleep 0'"'"''[0m

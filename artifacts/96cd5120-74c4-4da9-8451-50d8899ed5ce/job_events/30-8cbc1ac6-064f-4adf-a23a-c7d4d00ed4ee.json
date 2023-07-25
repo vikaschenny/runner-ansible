@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "8cbc1ac6-064f-4adf-a23a-c7d4d00ed4ee", "counter": 30, "stdout": "\u001b[1;35m[WARNING]: Unable to parse /opt/one/demo_hosts as an inventory source\u001b[0m", "start_line": 29, "end_line": 30, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.648302"}

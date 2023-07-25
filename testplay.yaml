@@ -1,0 +1,8 @@
+- name: Example Playbook
+  hosts: all
+  remote_user: vikas
+  vars:
+    private_key_pass: vikas
+  tasks:
+    - name: Example task
+      setup:

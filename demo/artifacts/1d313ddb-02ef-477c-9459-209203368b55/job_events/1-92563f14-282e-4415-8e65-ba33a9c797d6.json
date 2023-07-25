@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "92563f14-282e-4415-8e65-ba33a9c797d6", "counter": 1, "stdout": "Enter passphrase for /opt/one/demo/artifacts/1d313ddb-02ef-477c-9459-209203368b55/ssh_key_data", "start_line": 0, "end_line": 0, "runner_ident": "1d313ddb-02ef-477c-9459-209203368b55", "created": "2023-07-25T13:38:45.933841"}

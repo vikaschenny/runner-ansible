@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "c5a36ff0-29cf-4c4e-b04c-54c7c6d28e89", "counter": 17, "stdout": "\u001b[1;35m[my_hosts] 192.168.33.11 ansible_ssh_private_key_file=/opt/one/my_key.pem\u001b[0m", "start_line": 16, "end_line": 17, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.624425"}

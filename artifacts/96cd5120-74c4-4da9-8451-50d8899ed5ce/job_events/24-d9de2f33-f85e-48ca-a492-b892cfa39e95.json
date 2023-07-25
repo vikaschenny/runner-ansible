@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "d9de2f33-f85e-48ca-a492-b892cfa39e95", "counter": 24, "stdout": "\u001b[1;35m/opt/one/demo_hosts:2: Expected key=value host variable assignment, got: --ask-\u001b[0m", "start_line": 23, "end_line": 24, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.641629"}

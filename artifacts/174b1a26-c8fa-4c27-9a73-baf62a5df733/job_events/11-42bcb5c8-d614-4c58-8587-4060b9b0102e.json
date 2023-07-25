@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "42bcb5c8-d614-4c58-8587-4060b9b0102e", "counter": 11, "stdout": "\u001b[0;34mParsed /opt/one/demo_hosts inventory source with ini plugin\u001b[0m", "start_line": 10, "end_line": 11, "runner_ident": "174b1a26-c8fa-4c27-9a73-baf62a5df733", "created": "2023-07-25T12:09:33.122798"}

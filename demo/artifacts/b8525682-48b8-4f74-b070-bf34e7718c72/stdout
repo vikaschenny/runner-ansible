@@ -1,0 +1,12 @@
+Identity added: /opt/one/demo/artifacts/b8525682-48b8-4f74-b070-bf34e7718c72/ssh_key_data (/opt/one/demo/artifacts/b8525682-48b8-4f74-b070-bf34e7718c72/ssh_key_data)
+[0;34mansible-playbook [core 2.15.1][0m
+[0;34m  config file = /etc/ansible/ansible.cfg[0m
+[0;34m  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules'][0m
+[0;34m  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible[0m
+[0;34m  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections[0m
+[0;34m  executable location = /usr/local/bin/ansible-playbook[0m
+[0;34m  python version = 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] (/usr/bin/python3)[0m
+[0;34m  jinja version = 3.0.3[0m
+[0;34m  libyaml = True[0m
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[0;31mERROR! the playbook: test.yaml could not be found[0m

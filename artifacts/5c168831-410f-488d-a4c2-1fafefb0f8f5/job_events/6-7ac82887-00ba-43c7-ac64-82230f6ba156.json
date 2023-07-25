@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "7ac82887-00ba-43c7-ac64-82230f6ba156", "counter": 6, "stdout": "Enter passphrase for key '/opt/one/my_key.pem'", "start_line": 4, "end_line": 4, "runner_ident": "5c168831-410f-488d-a4c2-1fafefb0f8f5", "created": "2023-07-25T12:41:41.422034"}

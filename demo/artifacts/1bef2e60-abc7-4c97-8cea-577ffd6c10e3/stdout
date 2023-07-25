@@ -1,0 +1,46 @@
+Identity added: /opt/one/demo/artifacts/1bef2e60-abc7-4c97-8cea-577ffd6c10e3/ssh_key_data (/opt/one/demo/artifacts/1bef2e60-abc7-4c97-8cea-577ffd6c10e3/ssh_key_data)
+[0;34mansible-playbook [core 2.15.1][0m
+[0;34m  config file = /etc/ansible/ansible.cfg[0m
+[0;34m  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules'][0m
+[0;34m  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible[0m
+[0;34m  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections[0m
+[0;34m  executable location = /usr/local/bin/ansible-playbook[0m
+[0;34m  python version = 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] (/usr/bin/python3)[0m
+[0;34m  jinja version = 3.0.3[0m
+[0;34m  libyaml = True[0m
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[0;34mParsed /opt/one/demo/inventory/hosts inventory source with ini plugin[0m
+[0;34mSkipping callback 'awx_display', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'minimal', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'default', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'oneline', as we already have a stdout callback.[0m
+
+PLAYBOOK: test.yml *************************************************************
+[0;34m1 plays in /opt/one/demo/project/test.yml[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;30mtask path: /opt/one/demo/project/test.yml:2[0m
+[0;34m<192.168.33.11> ESTABLISH LOCAL CONNECTION FOR USER: root[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c 'echo ~root && sleep 0'[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /root/.ansible/tmp `"&& mkdir "` echo /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418 `" && echo ansible-tmp-1690292514.2388575-3494-55774998093418="` echo /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418 `" ) && sleep 0'[0m
+[0;34m<192.168.33.11> Attempting python interpreter discovery[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c 'echo PLATFORM; uname; echo FOUND; command -v '"'"'python3.11'"'"'; command -v '"'"'python3.10'"'"'; command -v '"'"'python3.9'"'"'; command -v '"'"'python3.8'"'"'; command -v '"'"'python3.7'"'"'; command -v '"'"'python3.6'"'"'; command -v '"'"'python3.5'"'"'; command -v '"'"'/usr/bin/python3'"'"'; command -v '"'"'/usr/libexec/platform-python'"'"'; command -v '"'"'python2.7'"'"'; command -v '"'"'/usr/bin/python'"'"'; command -v '"'"'python'"'"'; echo ENDFOUND && sleep 0'[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c '/usr/bin/python3.10 && sleep 0'[0m
+[0;34mUsing module file /usr/local/lib/python3.10/dist-packages/ansible/modules/setup.py[0m
+[0;34m<192.168.33.11> PUT /root/.ansible/tmp/ansible-local-3490lpy3z2zl/tmp533vh4sx TO /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418/AnsiballZ_setup.py[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c 'chmod u+x /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418/ /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418/AnsiballZ_setup.py && sleep 0'[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c '/usr/bin/python3 /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418/AnsiballZ_setup.py && sleep 0'[0m
+[0;34m<192.168.33.11> EXEC /bin/sh -c 'rm -f -r /root/.ansible/tmp/ansible-tmp-1690292514.2388575-3494-55774998093418/ > /dev/null 2>&1 && sleep 0'[0m
+[0;32mok: [192.168.33.11][0m
+
+TASK [debug] *******************************************************************
+[1;30mtask path: /opt/one/demo/project/test.yml:4[0m
+[0;32mok: [192.168.33.11] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;32m192.168.33.11[0m              : [0;32mok=2   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

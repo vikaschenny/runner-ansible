@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "f2a8bc01-3cf1-48ed-ad3e-7a3a04864b38", "counter": 16, "stdout": "\u001b[1;35mdepending on the exact syntax problem.  The offending line appears to be:\u001b[0m", "start_line": 15, "end_line": 16, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.622949"}

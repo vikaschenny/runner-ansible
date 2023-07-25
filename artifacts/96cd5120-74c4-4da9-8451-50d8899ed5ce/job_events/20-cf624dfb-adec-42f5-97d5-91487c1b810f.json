@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "cf624dfb-adec-42f5-97d5-91487c1b810f", "counter": 20, "stdout": "\u001b[0;34m    plugin.parse(self._inventory, self._loader, source, cache=cache)\u001b[0m", "start_line": 19, "end_line": 20, "runner_ident": "96cd5120-74c4-4da9-8451-50d8899ed5ce", "created": "2023-07-25T12:52:04.630819"}
